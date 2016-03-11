@@ -6,6 +6,21 @@
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
   </head>
+    <nav class="navbar navbar-default navbar-fixed-top text-center">
+  <div class="container">
+   <div class="row">
+   <div class="col-md-4">
+      <a href="/auth/logout"><h5>Logout</h5></a>
+    </div>
+    <div class="col-md-4">  
+      <a href="/auth/linkedin"><h5>LinkedIn</h5></a>
+      </div>
+      <div class="col-md-4">
+      <a href="/auth/linkedin/callback"><h5 id='move'>Callback</h5></a>
+      </div>
+    </div>
+  </div>
+</nav>
   <body>
     {% block content %}
     {% endblock %}
